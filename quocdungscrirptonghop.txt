@@ -1,0 +1,682 @@
+local ScreenGui = Instance.new("ScreenGui")
+local ImageButton = Instance.new("ImageButton")
+local UICorner = Instance.new("UICorner")
+
+ScreenGui.Parent = game.CoreGui
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+ImageButton.Parent = ScreenGui
+ImageButton.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+ImageButton.BorderSizePixel = 0
+ImageButton.Position = UDim2.new(0.10615778, 0, 0.16217947, 0)
+ImageButton.Size = UDim2.new(0, 40, 0, 40)
+ImageButton.Draggable = true
+ImageButton.Image = "http://www.roblox.com/asset/?id=75540555458334"
+
+UICorner.CornerRadius = UDim.new(1, 10) 
+UICorner.Parent = ImageButton
+
+ImageButton.MouseButton1Down:Connect(function()
+    game:GetService("VirtualInputManager"):SendKeyEvent(true, Enum.KeyCode.End, false, game)
+end)
+
+local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))()
+repeat wait() until game:IsLoaded()
+local Window = Fluent:CreateWindow({
+    Title = "quocdunghacker",
+    SubTitle = "Blox Fruit ",
+    TabWidth = 157,
+    Size = UDim2.fromOffset(450, 300),
+    Acrylic = true,
+    Theme = "dack",
+    MinimizeKey = Enum.KeyCode.End
+})
+local Tabs = {
+        Main0=Window:AddTab({ Title="Thông Tin" }),
+        Main1=Window:AddTab({ Title="Script Farm" }),
+        Main2=Window:AddTab({ Title="script tổng hợp " }),
+        Main3=Window:AddTab({ Title="script farm p2" }),
+        Main4=Window:AddTab({ Title="Script Hop" }),
+       Main5=Window:AddTab({ Title="script pvp" }),
+        
+}
+    Tabs.Main0:AddButton({
+    Title = "Discord",
+    Description = "quocdung",
+    Callback = function()
+        setclipboard("https://discord.gg/2QTh2nJ3")
+    end
+})
+
+Tabs.Main0:AddButton({
+    Title = "key tong daccauhub",
+    Description = "quocdung",
+    Callback = function()
+        setclipboard("imspiderman")
+    end
+})
+
+Tabs.Main0:AddButton({
+    Title = "key pvp new",
+    Description = "quocdung",
+    Callback = function()
+        setclipboard("tiltiltITllTtTlIlIlIlIlIlIIl")
+    end
+})
+
+    Tabs.Main0:AddButton({
+    Title = "youtube",
+    Description = "quocdunginmeme",
+    Callback = function()
+        setclipboard("https://www.youtube.com/@SkibidiHu%E1%BB%B3nhQuocdung")
+    end
+})
+
+Tabs.Main0:AddButton({
+    Title = "script blox fluit",
+    Description = "quocdunginmeme googhe",
+    Callback = function()
+        setclipboard("https://bandishare.mobi/thu-thuat/script-blox-fruit/")
+    end
+})
+
+Tabs.Main0:AddButton({
+    Title = "script blox fluit bà....",
+    Description = "quocdunginmeme",
+    Callback = function()
+        setclipboard("https://bandishare.io/script-blox-fruit/")
+    end
+})
+    
+    Tabs.Main1:AddButton({
+    Title="Redz Hub key",
+    Description="",
+    Callback=function()
+	  local Settings = {
+  JoinTeam = "Pirates"; -- Pirates/Marines
+  Translator = true; -- true/false
+}
+
+ loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/20f318386e3fbf069ee3fa797cfc9f34.lua"))()
+  end
+})
+ Tabs.Main1:AddButton({
+    Title="script teddy hub",
+    Description="",
+    Callback=function()
+	  local Settings = {
+  JoinTeam = "Pirates"; -- Pirates/Marines
+  Translator = true; -- true/false
+}
+
+repeat task.wait() until game:IsLoaded() and game:GetService("Players") and game.Players.LocalPlayer and game.Players.LocalPlayer:FindFirstChild("PlayerGui")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Teddyseetink/Haidepzai/refs/heads/main/TeddyHub.lua"))()
+  end
+})
+
+Tabs.Main1:AddButton({
+    Title="banana free",
+    Description="",
+    Callback=function()
+	  local Settings = {
+  JoinTeam = "Pirates"; -- Pirates/Marines
+  Translator = true; -- true/false
+}
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/kimprobloxdz/Banana-Free/refs/heads/main/Protected_5609200582002947.lua.txt"))()
+  end
+})
+Tabs.Main1:AddButton({
+    Title="zin hub",
+    Description="",
+    Callback=function()
+	  local Settings = {
+  JoinTeam = "Pirates"; -- Pirates/Marines
+  Translator = true; -- true/false
+}
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/Zis/refs/heads/main/ZisRobloxHub"))()
+  end
+})
+Tabs.Main1:AddButton({
+    Title="script anhdepzai hub",
+    Description="",
+    Callback=function()
+	  local Settings = {
+  JoinTeam = "Pirates"; -- Pirates/Marines
+  Translator = true; -- true/false
+}
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/trongdeptraihucscript/Adz-Hub/refs/heads/main/Adz-Hub.lua"))()
+  end
+})
+Tabs.Main1:AddButton({
+    Title="script script W-azure hub",
+    Description="",
+    Callback=function()
+	  local Settings = {
+  JoinTeam = "Pirates"; -- Pirates/Marines
+  Translator = true; -- true/false
+}
+
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/85e904ae1ff30824c1aa007fc7324f8f.lua"))()
+  end
+})
+Tabs.Main3:AddButton({
+    Title="script Rubu Hub Main",
+    Description="",
+    Callback=function()
+	  local Settings = {
+  JoinTeam = "Pirates"; -- Pirates/Marines
+  Translator = true; -- true/false
+}
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Bubu2k/Rubutv/refs/heads/main/rubuhubV5Y.lua"))()
+  end
+})
+Tabs.Main3:AddButton({
+    Title="Dragon Hub Kaitun",
+    Description="",
+    Callback=function()
+	  local Settings = {
+  JoinTeam = "Pirates"; -- Pirates/Marines
+  Translator = true; -- true/false
+}
+
+getgenv().Config_DragonHub = {
+    ["Team"] = 'Pirates',
+    ["Tween Speed"] = 300,
+    ["Skip Level"] = true,
+    ["Rainbow Haki"] = false, -- incoming soon
+    ["Pull Level"] = true,
+    ["Same Y"] = true,
+    ["Haki"] = {
+        ["Buso"] = true,
+        ["Skyjump"] = true, -- incoming soon
+        ["Flash Step"] = true, -- incoming soon
+    },
+    ["Melee"] = {
+        ["Auto Fully Fighting Style"] = true,
+    },
+    ["Sword"] = {
+        ["Saber"] = true,
+        ["Cursed Dual Katana"] = true,
+    },
+    ["Gun"] = {
+        ["Kabucha"] = false, -- incoming soon
+        ["Skull Guitar"] = true,
+    },
+    ["Webhook"] = {
+        ["Enabled"] = false,
+        ["WebhookUrl"] = "",
+    }
+}
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Flontium2/Dragon-Hub/refs/heads/main/Kaitun.lua"))()
+  end
+})
+
+Tabs.Main1:AddButton({
+    Title="script grafity hub",
+    Description="",
+    Callback=function()
+	  local Settings = {
+  JoinTeam = "Pirates"; -- Pirates/Marines
+  Translator = true; -- true/false
+}
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-GravityHub/BloxFruit/refs/heads/main/Main.lua"))()
+  end
+})
+Tabs.Main1:AddButton({
+    Title="script blue main",
+    Description="",
+    Callback=function()
+	  local Settings = {
+  JoinTeam = "Pirates"; -- Pirates/Marines
+  Translator = true; -- true/false
+}
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-BlueX/BlueX-Hub/refs/heads/main/Main.lua"))()
+  end
+})
+Tabs.Main1:AddButton({
+    Title="script blue main",
+    Description="",
+    Callback=function()
+	  local Settings = {
+  JoinTeam = "Pirates"; -- Pirates/Marines
+  Translator = true; -- true/false
+}
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-BlueX/BlueX-Hub/refs/heads/main/Main.lua"))()
+  end
+})
+Tabs.Main2:AddButton({
+    Title="script Tuấn iOS",
+    Description="",
+    Callback=function()
+	  local Settings = {
+  JoinTeam = "Pirates"; -- Pirates/Marines
+  Translator = true; -- true/false
+}
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/AnhDzaiScript/TuanAnhIOSNew/refs/heads/main/TuanAnhIOS-TongHop.Lua"))()
+  end
+})
+Tabs.Main2:AddButton({
+    Title="script tboy",
+    Description="",
+    Callback=function()
+	  local Settings = {
+  JoinTeam = "Pirates"; -- Pirates/Marines
+  Translator = true; -- true/false
+}
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/TBoyRoblox727/TBoyRobloxYTB/refs/heads/main/AllScriptBF.txt"))()  
+  end
+})
+Tabs.Main2:AddButton({
+    Title="script daccauhub",
+    Description="",
+    Callback=function()
+	  local Settings = {
+  JoinTeam = "Pirates"; -- Pirates/Marines
+  Translator = true; -- true/false
+}
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Luongdaynetroi/ScriptTongHop/refs/heads/main/.lua"))()
+  end
+})
+
+Tabs.Main2:AddButton({
+    Title="script vtd roblox",
+    Description="",
+    Callback=function()
+	  local Settings = {
+  JoinTeam = "Pirates"; -- Pirates/Marines
+  Translator = true; -- true/false
+}
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/vietdepzai25102010/VTD-Roblox-/refs/heads/main/vtd%20test"))()
+  end
+})
+
+Tabs.Main1:AddButton({
+    Title="script bay",
+    Description="",
+    Callback=function()
+	  local Settings = {
+  JoinTeam = "Pirates"; -- Pirates/Marines
+  Translator = true; -- true/false
+}
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/XNEOFF/FlyGuiV3/main/FlyGuiV3.txt"))()
+  end
+})
+Tabs.Main1:AddButton({
+    Title="script hnttn hub",
+    Description="",
+    Callback=function()
+	  local Settings = {
+  JoinTeam = "Pirates"; -- Pirates/Marines
+  Translator = true; -- true/false
+}
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/q8ta0e/source/main/HNTL_Hub_BF.lua"))()
+  end
+})
+Tabs.Main5:AddButton({
+    Title="script pvp",
+    Description="",
+    Callback=function()
+	  local Settings = {
+  JoinTeam = "Pirates"; -- Pirates/Marines
+  Translator = true; -- true/false
+}
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ParadozCode/CentuDox-Hub-Paradoz-Hub/refs/heads/main/CentuDox%20Aimbot.xyz", true))()
+  end
+})
+Tabs.Main5:AddButton({
+    Title="script pvp toca hub",
+    Description="",
+    Callback=function()
+	  local Settings = {
+  JoinTeam = "Pirates"; -- Pirates/Marines
+  Translator = true; -- true/false
+}
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Totocoems/Ace/main/Ace"))()
+  end
+})
+Tabs.Main5:AddButton({
+    Title="script pvp mới",
+    Description="",
+    Callback=function()
+	  local Settings = {
+  JoinTeam = "Pirates"; -- Pirates/Marines
+  Translator = true; -- true/false
+}
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/onion132005-bit/v3/refs/heads/main/onion13v3.lua"))()
+  end
+})
+Tabs.Main4:AddButton({
+    Title="script sever vip 1 người",
+    Description="",
+    Callback=function()
+	  local Settings = {
+  JoinTeam = "Pirates"; -- Pirates/Marines
+  Translator = true; -- true/false
+}
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/trungdao2k4/buffalo/refs/heads/main/hopless.lua"))()
+  end
+})
+
+Tabs.Main5:AddButton({
+    Title="script pvp trẩu",
+    Description="",
+    Callback=function()
+	  local Settings = {
+  JoinTeam = "Pirates"; -- Pirates/Marines
+  Translator = true; -- true/false
+}
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/traurobloxdeptrai/traukhoaito/refs/heads/main/pvp.lua"))()
+  end
+})
+Tabs.Main4:AddButton({
+    Title="script teddy hop (mới hoạt động đc)",
+    Description="",
+    Callback=function()
+	  local Settings = {
+  JoinTeam = "Pirates"; -- Pirates/Marines
+  Translator = true; -- true/false
+}
+
+repeat task.wait() until game:IsLoaded() and game:GetService("Players") and game.Players.LocalPlayer and game.Players.LocalPlayer:FindFirstChild("PlayerGui")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Teddyseetink/Haidepzai/refs/heads/main/TEDDYHUB-FREEMIUM"))()
+  end
+})
+Tabs.Main4:AddButton({
+    Title="script hop night (ko biết có hoạt đọng ko)",
+    Description="",
+    Callback=function()
+	  local Settings = {
+  JoinTeam = "Pirates"; -- Pirates/Marines
+  Translator = true; -- true/false
+}
+
+loadstring(game:HttpGet("https://github.com/WhiteX1208/Scripts/blob/main/HopScript.luau?raw=true"))()
+  end
+})
+Tabs.Main1:AddButton({
+    Title="script bacon hub",
+    Description="",
+    Callback=function()
+	  local Settings = {
+  JoinTeam = "Pirates"; -- Pirates/Marines
+  Translator = true; -- true/false
+}
+
+repeat wait() until game:IsLoaded() and game.Players.LocalPlayer 
+getgenv().team = "Pirates" -- Pirates or Marines
+loadstring(game:HttpGet("https://raw.githubusercontent.com/vinh129150/hack/refs/heads/main/BaconHub.lua"))()
+  end
+})
+Tabs.Main1:AddButton({
+    Title="script night hub",
+    Description="",
+    Callback=function()
+	  local Settings = {
+  JoinTeam = "Pirates"; -- Pirates/Marines
+  Translator = true; -- true/false
+}
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/WhiteX1208/Scripts/refs/heads/main/BF-Beta.lua"))()
+  end
+})
+Tabs.Main1:AddButton({
+    Title="script quantum",
+    Description="",
+    Callback=function()
+	  local Settings = {
+  JoinTeam = "Pirates"; -- Pirates/Marines
+  Translator = true; -- true/false
+}
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/flazhy/QuantumOnyx/refs/heads/main/QuantumOnyx.lua"))()
+  end
+})
+Tabs.Main4:AddButton({
+    Title="script hop 1 người",
+    Description="",
+    Callback=function()
+	  local Settings = {
+  JoinTeam = "Pirates"; -- Pirates/Marines
+  Translator = true; -- true/false
+}
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/anuragaming1/Meow_gaming/refs/heads/main/Servervip.lua.txt"))()
+  end
+})
+Tabs.Main1:AddButton({
+    Title="script hoho hub",
+    Description="",
+    Callback=function()
+	  local Settings = {
+  JoinTeam = "Pirates"; -- Pirates/Marines
+  Translator = true; -- true/false
+}
+
+_G.HohoVersion = "v4"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI"))()
+  end
+})
+Tabs.Main2:AddButton({
+    Title="script tổng hợp",
+    Description="",
+    Callback=function()
+	  local Settings = {
+  JoinTeam = "Pirates"; -- Pirates/Marines
+  Translator = true; -- true/false
+}
+
+loadstring(game:HttpGet("https://isnahamzahpastebin.tech/loader/isna_scripthub_21"))()
+  end
+})
+Tabs.Main1:AddButton({
+    Title="script hiru hub ko biết có hoạt động ko",
+    Description="",
+    Callback=function()
+	  local Settings = {
+  JoinTeam = "Pirates"; -- Pirates/Marines
+  Translator = true; -- true/false
+}
+
+repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
+getgenv().Settings = {
+    JoinTeam = true,
+    Team = "Marines"-- Pirates or Marines
+}
+loadstring(game:HttpGet("https://raw.githubusercontent.com/KiddoHiru/BloxFruits/main/Source.lua"))()
+  end
+})
+Tabs.Main1:AddButton({
+    Title="scriptZenith Hub",
+    Description="",
+    Callback=function()
+	  local Settings = {
+  JoinTeam = "Pirates"; -- Pirates/Marines
+  Translator = true; -- true/false
+}
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ZenithWz/Scripts.luau/refs/heads/main/Dev"))()
+  end
+})
+Tabs.Main3:AddButton({
+    Title="script Xova",
+    Description="",
+    Callback=function()
+	  local Settings = {
+  JoinTeam = "Pirates"; -- Pirates/Marines
+  Translator = true; -- true/false
+}
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/sofziol1fe/Script/refs/heads/main/main.luau"))()
+  end
+})
+Tabs.Main4:AddButton({
+    Title="script xsvvv sever hop ",
+    Description="",
+    Callback=function()
+	  local Settings = {
+  JoinTeam = "Pirates"; -- Pirates/Marines
+  Translator = true; -- true/false
+}
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/xSync-gg/VisionX/refs/heads/main/Server_Finder.lua"))()
+  end
+})
+Tabs.Main1:AddButton({
+    Title="script NHT x hub ",
+    Description="",
+    Callback=function()
+	  local Settings = {
+  JoinTeam = "Pirates"; -- Pirates/Marines
+  Translator = true; -- true/false
+}
+
+getgenv().Team = "Pirates" 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/trongdeptraihucscript/Main/refs/heads/main/Hoangtrongdepzai.lua"))()
+  end
+})
+Tabs.Main1:AddButton({
+    Title="script Hinishi Hub ",
+    Description="",
+    Callback=function()
+	  local Settings = {
+  JoinTeam = "Pirates"; -- Pirates/Marines
+  Translator = true; -- true/false
+}
+
+getgenv().team = "Pirates" -- Marines or Pirates
+_G. Translate = "Vietnamese" -- Thai or Russian or Portuguese or Vietnamese
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-Hinishi/Hinishi-Hub/refs/heads/main/Freemium.lua"))()
+  end
+})
+Tabs.Main1:AddButton({
+    Title="script hiru hub",
+    Description="",
+    Callback=function()
+	  local Settings = {
+  JoinTeam = "Pirates"; -- Pirates/Marines
+  Translator = true; -- true/false
+}
+
+repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
+loadstring(game:HttpGet("https://luacrack.site/raw.php/HiruHub/raw/Loader/HiruHubFree.lua"))()
+  end
+})
+Tabs.Main5:AddButton({
+    Title="script pvp - pvp farm",
+    Description="",
+    Callback=function()
+	  local Settings = {
+  JoinTeam = "Pirates"; -- Pirates/Marines
+  Translator = true; -- true/false
+}
+
+local script_mode = "PVP" -- PVP, FARM
+loadstring(game:HttpGet("https://raw.githubusercontent.com/hermanos-dev/hermanos-hub/refs/heads/main/Loader.lua"))()
+  end
+})
+Tabs.Main3:AddButton({
+    Title="script rubu v6",
+    Description="",
+    Callback=function()
+	  local Settings = {
+  JoinTeam = "Pirates"; -- Pirates/Marines
+  Translator = true; -- true/false
+}
+
+repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Teddyseetink/RUBU/refs/heads/main/RUBUV6.lua"))()
+  end
+})
+Tabs.Main3:AddButton({
+    Title="script Leaf Hub",
+    Description="",
+    Callback=function()
+	  local Settings = {
+  JoinTeam = "Pirates"; -- Pirates/Marines
+  Translator = true; -- true/false
+}
+
+repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
+loadstring(game:HttpGet("https://leaf-zeta.onrender.com/api/script"))()
+  end
+})
+Tabs.Main4:AddButton({
+    Title="script hop risê hop",
+    Description="",
+    Callback=function()
+	  local Settings = {
+  JoinTeam = "Pirates"; -- Pirates/Marines
+  Translator = true; -- true/false
+}
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/asher-realrise/project/refs/heads/main/RiseServerFinder.lua"))()
+  end
+})
+Tabs.Main3:AddButton({
+    Title="script ZIS CHUOI",
+    Description="",
+    Callback=function()
+	  local Settings = {
+  JoinTeam = "Pirates"; -- Pirates/Marines
+  Translator = true; -- true/false
+}
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/Zis/refs/heads/main/ZisChuoiEng"))()
+  end
+})
+Tabs.Main3:AddButton({
+    Title="script  ZIS KATA V2",
+    Description="",
+    Callback=function()
+	  local Settings = {
+  JoinTeam = "Pirates"; -- Pirates/Marines
+  Translator = true; -- true/false
+}
+
+getgenv().Team = "Marines"
+loadstring(game:HttpGet("https://github.com/LuaCrack/Zis/raw/refs/heads/main/ZisXtNewVn"))()
+  end
+})
+Tabs.Main3:AddButton({
+    Title="script ZIS ",
+    Description="",
+    Callback=function()
+	  local Settings = {
+  JoinTeam = "Pirates"; -- Pirates/Marines
+  Translator = true; -- true/false
+}
+
+getgenv().Team = "Marines"
+loadstring(game:HttpGet("https://github.com/LuaCrack/Zis/raw/refs/heads/main/ZisUp27NewVn"))()
+  end
+})
+Tabs.Main3:AddButton({
+    Title="script trau roblox ",
+    Description="",
+    Callback=function()
+	  local Settings = {
+  JoinTeam = "Pirates"; -- Pirates/Marines
+  Translator = true; -- true/false
+}
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/traurobloxdeptrai/traukhoaito/refs/heads/main/trauhubv7.lua"))()
+  end
+})
