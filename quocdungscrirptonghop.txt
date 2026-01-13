@@ -400,7 +400,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Teddyseetink/Haidepza
   end
 })
 Tabs.Main4:AddButton({
-    Title="script hop night (ko biết có hoạt đọng ko)",
+    Title="script hop night ;)",
     Description="",
     Callback=function()
 	  local Settings = {
@@ -408,7 +408,7 @@ Tabs.Main4:AddButton({
   Translator = true; -- true/false
 }
 
-loadstring(game:HttpGet("https://github.com/WhiteX1208/Scripts/blob/main/HopScript.luau?raw=true"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/WhiteX1208/Scripts/refs/heads/main/HopScript.luau"))()
   end
 })
 Tabs.Main1:AddButton({
