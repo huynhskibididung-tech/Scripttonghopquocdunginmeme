@@ -1,0 +1,116 @@
+local ScreenGui = Instance.new("ScreenGui")
+local ImageButton = Instance.new("ImageButton")
+local UICorner = Instance.new("UICorner")
+
+ScreenGui.Parent = game.CoreGui
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+ImageButton.Parent = ScreenGui
+ImageButton.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+ImageButton.BorderSizePixel = 0
+ImageButton.Position = UDim2.new(0.10615778, 0, 0.16217947, 0)
+ImageButton.Size = UDim2.new(0, 40, 0, 40)
+ImageButton.Draggable = true
+ImageButton.Image = "http://www.roblox.com/asset/?id=101299344665163"
+
+UICorner.CornerRadius = UDim.new(1, 10) 
+UICorner.Parent = ImageButton
+
+ImageButton.MouseButton1Down:Connect(function()
+    game:GetService("VirtualInputManager"):SendKeyEvent(true, Enum.KeyCode.End, false, game)
+end)
+
+local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))()
+repeat wait() until game:IsLoaded()
+local Window = Fluent:CreateWindow({
+    Title = "banana hub USB tổng with quocdungskibidi",
+    SubTitle = "Blox Fruit",
+    TabWidth = 157,
+    Size = UDim2.fromOffset(450, 300),
+    Acrylic = true,
+    Theme = "yellow",
+    MinimizeKey = Enum.KeyCode.End
+})
+local Tabs = {
+        Main0=Window:AddTab({ Title="Thông Tin" }),
+        Main1=Window:AddTab({ Title="Script banana free " }),
+        Main2=Window:AddTab({ Title="script phụ " }),
+        Main3=Window:AddTab({ Title="script hop" }),
+        Main4=Window:AddTab({ Title="skibidi" }),
+}
+    Tabs.Main0:AddButton({
+    Title = "Discord",
+    Description = "banana hub contruy",
+    Callback = function()
+        setclipboard("https://discord.gg/chuoihub")
+    end
+})
+    
+    Tabs.Main1:AddButton({
+    Title="banana hub bản 1",
+    Description="",
+    Callback=function()
+	  local Settings = {
+  JoinTeam = "Pirates"; -- Pirates/Marines
+  Translator = true; -- true/false
+}
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/kimprobloxdz/Banana-Free/refs/heads/main/Protected_5609200582002947.lua.txt"))()
+  end
+})
+Tabs.Main1:AddButton({
+    Title="bananahub bản 2",
+    Description="",
+    Callback=function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/kaitofixlag-hub/Scriptkaito/refs/heads/main/bananahubkaito.txt"))()
+  end
+})
+Tabs.Main1:AddButton({
+    Title="bananahub bản 3",
+    Description="",
+    Callback=function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/trongnguyenhubbloxfruit/TrongNguyenHub_Banana/refs/heads/main/BananaHubFreeBF.lua"))()
+  end
+})
+Tabs.Main1:AddButton({
+    Title="bananahub bản 4",
+    Description="",
+    Callback=function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/hdanhvip/hdanhhub/refs/heads/main/BananaHub.lua.txt"))()
+  end
+})
+Tabs.Main1:AddButton({
+    Title="quocdungskibidi ",
+    Description="",
+    Callback=function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/huynhskibididung-tech/Scripttonghopquocdunginmeme/refs/heads/main/Main"))()
+  end
+})
+Tabs.Main1:AddButton({
+    Title="bananahub bản 5",
+    Description="",
+    Callback=function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/aloaloalo322/sssdas/refs/heads/main/cc"))()
+  end
+})
+Tabs.Main1:AddButton({
+    Title="bananahub bản 6",
+    Description="",
+    Callback=function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/huynhskibididung-tech/Scripttonghopquocdunginmeme/refs/heads/main/banana%20hub"))()
+  end
+})
+Tabs.Main1:AddButton({
+    Title="maru hub free",
+    Description="",
+    Callback=function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/longhihilonghihi-hub/MaruHubV1/refs/heads/main/MainV1.Lua "))()
+  end
+})
+Tabs.Main1:AddButton({
+    Title="bananahub bản 7",
+    Description="",
+    Callback=function()
+	  loadstring(game:HttpGet("https://dichvudev.fun/bb.lua"))()
+  end
+})
