@@ -1,0 +1,5 @@
+-- LinkGetKey : https://jnkie.com/get-key/hutaohubfree
+getgenv().SCRIPT_KEY = "dán key tại đây"
+getgenv().loadalllanguage = false 
+getgenv().showpingandfps = true 
+loadstring(game:HttpGet("https://api.jnkie.com/api/v1/luascripts/public/c3361825eee7f3f4f5ae94236ae31b3d1aff3fafdd9bc0fa255efbbc0e84eb6a/download"))()
